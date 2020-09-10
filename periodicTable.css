@@ -1,0 +1,89 @@
+#header {
+  height: 38px;
+  width: 450px;
+  text-align: center;
+  margin: auto;
+  color: gray;
+  border-style: solid;
+}
+
+#header > h1 {
+  margin: 0px;
+}
+
+#periodicTable {
+  margin: 10px auto 0px auto;
+  height: auto;
+  overflow: auto;
+  background-color: lightgray;
+  padding: 9px 0px 9px 15px;
+  display: block;
+}
+
+.divRow {
+  display: block;
+}
+
+.divCell {
+  display: inline-block;
+  border-style: 1px, solid;
+  border-radius: 6px;
+  height: 60px;
+  width: 64.4px;
+  cursor: pointer;
+  margin: 2px;
+  position: relative;
+  overflow: auto;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+}
+
+.sBlock {
+  background-color: #ff9999;
+}
+
+.pBlock {
+  background-color: #f7f89f;
+}
+
+.dBlock {
+  background-color: #99ccff;
+}
+
+.fBlock {
+  background-color: #9bff99;
+}
+
+.emptyBox {
+  display: inline-block;
+  height: 60px;
+  width: 64.4px;
+  margin: 2px;
+  position: relative;
+  overflow: auto;
+  background-color: lightgray;
+  display: inline-block;
+}
+
+#atomicNumber {
+  color: black;
+  text-align: left;
+  font-size: 12px;
+  margin: 3px 0px 0px 3px;
+}
+
+#symbol {
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#name {
+  font-family: helvetica;
+  font-size: 9.2px;
+  margin: 0.8px;
+  text-align: center;
+}
